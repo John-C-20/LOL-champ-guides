@@ -1,0 +1,10 @@
+#champion-list {
+    grid-auto-rows: 187px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
+    gap: 30px;
+}
+
+li {
+    list-style: none;
+}
