@@ -1,6 +1,6 @@
 function defaultPage() {
 
-    fetch("https://ddragon.leagueoflegends.com/cdn/11.13.1/data/en_US/champion.json/")
+    fetch("https://ddragon.leagueoflegends.com/cdn/11.13.1/data/en_US/champion.json")
         .then(res => res.json())
         .then(data => Object.values(data.data).forEach(champ => {
             let list = document.getElementById("champion-list")
